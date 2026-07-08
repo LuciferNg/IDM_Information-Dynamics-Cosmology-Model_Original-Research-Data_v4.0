@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "cfas"
+version = "0.1.0"
+description = "Consistency Field Applied Science — finite consistency budget framework"
+authors = [{name = "Lucifer Ng"}]
+requires-python = ">=3.10"
+dependencies = ["numpy"]
+
+[project.urls]
+Source = "https://github.com/LuciferNg/IDM4.0-Consistency-Field-Applied-Science"
+Documentation = "https://cfas.readthedocs.io"
+
+[tool.setuptools.packages.find]
+include = ["cfas*"]
