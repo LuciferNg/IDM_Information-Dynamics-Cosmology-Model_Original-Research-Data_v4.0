@@ -226,7 +226,7 @@ This is philosophically unusual: a framework that claims substrate-level access 
 | **P2** | **Neutrino mass: hierarchy predicted** | ✅ | neutrino-mass.md | cfas-neutrino-mass.py ✅ |
 | **P2** | **UV completion: OAS is scale-free** | ✅ | uv-completion.md | cfas-uv-completion.py ✅ |
 | **P3** | **4th gen: LHC constraints integrated** | ✅ | generations.md (appended) | cfas-generations.py ✅ |
-| **P0** | **Baryogenesis** | 🔴 **Open** | cp-violation.md | cfas-cp-violation.py ✅ |
+| **P3** | **Baryogenesis: GUT X-boson** | **🔴→✅** | cp-violation.md | cfas-cp-violation.py ✅ |
 
 ## 5. Corrections Made (2026-07-10)
 
@@ -237,7 +237,7 @@ This is philosophically unusual: a framework that claims substrate-level access 
 | **CIP as PDE** | ∂C/∂t = -iωC + D∇²C - ΓC + S | dC/dt from master equation | No free parameters — derived from d|W⟩/dt |
 | **DM as single particle** | 1 keV warm DM | Tower of hidden modes (15 GeV → 14 MeV) | Using EW scale v = 246 GeV, not Planck scale |
 | **Neutrino mass ad-hoc** | m_ν = 0.002 eV | Normal hierarchy predicted, scale open | The hierarchy is forced; the scale is not |
-| **Baryogenesis fudged** | η = 6.7×10⁻¹¹ (factor 10 low) | 🔴 Open — M₁ > T_RH | Leptogenesis fails; need non-thermal mechanism |
+| **Baryogenesis fudged** | η = 6.7×10⁻¹¹ (factor 10 low) | η = 9.9×10⁻¹⁰ (factor 1.6) ✅ | CFAS has no SUSY → T_RH = 10¹⁵ GeV → GUT X-boson decay |
 
 ## 6. Honest Assessment After Correction
 
